@@ -5,7 +5,7 @@ from keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D, Dropout
 from keras.utils import to_categorical
 
 # 指定亂數種子
-np.random.seed(10)
+np.random.seed(15)
 # 載入資料集
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()
 # 因為是固定範圍, 所以執行正規化, 從 0-255 至 0-1
